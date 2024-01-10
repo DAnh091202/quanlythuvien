@@ -1,0 +1,6 @@
+Bước 1: Tạo database tên "qltv" sau đó import file "qltv.sql"
+Bước 2: Sửa lại Build path bằng cách thêm file "mysql-connector-java-8.0.30.jar" vào Libraries của phần mềm
+Bước 3: Vào "Connect_database.java"
+	sửa lại dòng "cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/qltv","root","191816");"
+	giống với cấu hình mysql của bạn
+Bước 4: Chạy dự án đăng nhập với tài khoản mặc định là "admin" và mật khẩu là "12345"
